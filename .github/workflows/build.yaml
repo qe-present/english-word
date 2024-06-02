@@ -12,7 +12,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - Set up node
+      - name: Set up node
         uses: actions/setup-node@v4
         with:
           node-version: '22.x'
