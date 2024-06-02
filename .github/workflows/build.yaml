@@ -10,9 +10,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: 下载源代码
         uses: actions/checkout@v4
-      - name: Set up node
+      - name: 设置 Node.js 版本
         uses: actions/setup-node@v4
         with:
           node-version: '22.x'
