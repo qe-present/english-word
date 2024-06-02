@@ -1,4 +1,4 @@
-name: build.yaml
+name: 打包
 on:
   workflow_dispatch:
     inputs:
@@ -18,4 +18,5 @@ jobs:
           node-version: '22.x'
       - name: ok
         run: echo "ok"
+
 
